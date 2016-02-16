@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-s3-pack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -40,12 +40,21 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin-pack"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "ember-cli-babel": "^5.1.5",
+    "ember-cli-deploy-build": "~0.1.1",
+    "ember-cli-deploy-display-revisions": "0.1.1",
+    "ember-cli-deploy-revision-data": "0.1.1",
+    "ember-cli-deploy-s3": "~0.2.1",
+    "ember-cli-deploy-s3-index": "~0.3.0",
+    "ember-cli-deploy-gzip": "~0.2.1",
+    "ember-cli-deploy-manifest": "~0.1.1"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "defaultBlueprint": "s3-deploy-config"
   }
 }
