@@ -1,5 +1,5 @@
 /* jshint node:true */
-var RSVP = require('rsvp');
+//var RSVP = require('rsvp');
 
 // For details on each option run `ember help release`
 module.exports = {
@@ -13,9 +13,9 @@ module.exports = {
   timezone: 'America/Los_Angeles',
   publish: "true"
   
-  beforeCommit: function(project, versions) {
-    return new RSVP.Promise(function(resolve, reject) {
-      // Do custom things here...
-    });
-  }
+//  beforeCommit: function(project, versions) {
+//    return new RSVP.Promise(function(resolve, reject) {
+//      // Do custom things here...
+//    });
+//  }
 };
