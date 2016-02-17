@@ -1,4 +1,4 @@
-i-deploy-aws-pack
+ember-cli-deploy-s3-pack
 
 > An ember-cli-deploy plugin pack to implement a simple S3 deployment pattern
 
@@ -29,4 +29,4 @@ A "plugin pack" is a concept supported by ember-cli-deploy that allows a single 
 * [ember-cli-deploy-revision-data](https://github.com/ember-cli-deploy-revision-data)
 * [ember-cli-deploy-display-revisions](https://github.com/ember-cli-display-revisions)
 * [ember-cli-deploy-manifest](https://github.com/ember-cli-deploy/ember-cli-deploy-manifest)
-
+* [ember-cli-deploy-gzip](https://github.com/ember-cli-deploy/ember-cli-deploy-gzip)
