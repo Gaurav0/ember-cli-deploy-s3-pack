@@ -2,7 +2,7 @@ ember-cli-deploy-s3-pack
 
 > An ember-cli-deploy plugin pack to implement a simple S3 deployment pattern
 
-![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-aws-pack.svg)
+![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3-pack.svg)
 
 This package bundles the plugins you need to have a deployment pipeline for your Ember app to S3. It is based on the [AWS](https://github.com/kpfefferle/ember-cli-deploy-aws-pack) pack, but does not assume you are using Cloudfront.
 
