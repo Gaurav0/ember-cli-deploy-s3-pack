@@ -25,8 +25,8 @@ A "plugin pack" is a concept supported by ember-cli-deploy that allows a single 
 
 * [ember-cli-deploy-build](https://github.com/ember-cli-deploy/ember-cli-deploy-build)
 * [ember-cli-deploy-s3](https://github.com/ember-cli-deploy/ember-cli-deploy-s3)
-* [ember-cli-deploy-s3-index](https://github.com/ember-cli-deploy-s3-index)
-* [ember-cli-deploy-revision-data](https://github.com/ember-cli-deploy-revision-data)
-* [ember-cli-deploy-display-revisions](https://github.com/ember-cli-display-revisions)
+* [ember-cli-deploy-s3-index](https://github.com/ember-cli-deploy/ember-cli-deploy-s3-index)
+* [ember-cli-deploy-revision-data](https://github.com/ember-cli-deploy/ember-cli-deploy-revision-data)
+* [ember-cli-deploy-display-revisions](https://github.com/ember-cli-deploy/ember-cli-deploy-display-revisions)
 * [ember-cli-deploy-manifest](https://github.com/ember-cli-deploy/ember-cli-deploy-manifest)
 * [ember-cli-deploy-gzip](https://github.com/ember-cli-deploy/ember-cli-deploy-gzip)
