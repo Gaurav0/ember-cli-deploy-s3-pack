@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-s3-pack",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "An ember-cli-deploy plugin pack to implement a simple S3 deployment pattern",
   "keywords": [
     "ember-addon",
