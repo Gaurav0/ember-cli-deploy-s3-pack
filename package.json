@@ -29,7 +29,7 @@
   "dependencies": {
     "ember-cli-deploy-build": "^3.0.0",
     "ember-cli-deploy-display-revisions": "^3.0.0",
-    "ember-cli-deploy-gzip": "^3.0.0",
+    "ember-cli-deploy-smart-compress": "^2.0.0",
     "ember-cli-deploy-manifest": "^3.0.0",
     "ember-cli-deploy-revision-data": "^3.0.0",
     "ember-cli-deploy-s3": "^5.0.0",

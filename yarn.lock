@@ -2343,7 +2343,7 @@
     js-levenshtein "^1.1.3"
     semver "^5.5.0"
 
-"@babel/preset-env@^7.10.2", "@babel/preset-env@^7.16.5", "@babel/preset-env@^7.22.4":
+"@babel/preset-env@^7.10.2", "@babel/preset-env@^7.16.5":
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.26.0.tgz#30e5c6bc1bcc54865bff0c5a30f6d4ccdc7fa8b1"
   integrity sha512-H84Fxq0CQJNdPFT2DrfnylZ3cf5K43rGfWK4LJGPpjKHiZlk0/RzwEus3PDDZZg+/Er7lCA03MVacueUuXdzfw==
@@ -5982,6 +5982,14 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
+browserslist@^2.0.0:
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-2.11.3.tgz#fe36167aed1bbcde4827ebfe71347a2cc70b99b2"
+  integrity sha512-yWu5cXT7Av6mVwzWc8lMsJMHWn4xyjSuGYi4IozbVTLUOEYPSagUB8kiMDUHA1fS3zjr8nkxkn9jdvug4BBRmA==
+  dependencies:
+    caniuse-lite "^1.0.30000792"
+    electron-to-chromium "^1.3.30"
+
 browserslist@^3.2.6:
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
@@ -6255,15 +6263,25 @@ can-symlink@^1.0.0:
   dependencies:
     tmp "0.0.28"
 
+caniuse-api@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-2.0.0.tgz#b1ddb5a5966b16f48dc4998444d4bbc6c7d9d834"
+  integrity sha512-425yJRcUDCCMKc0Zga2KSUe7Qp7nCtL8H0BJIsDxF9yMzG2eSYvOggi5U1wXzxgcSgDGnzVLvZ8dZGMBrA6Ltg==
+  dependencies:
+    browserslist "^2.0.0"
+    caniuse-lite "^1.0.0"
+    lodash.memoize "^4.1.2"
+    lodash.uniq "^4.5.0"
+
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30001669:
+  version "1.0.30001684"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001684.tgz#0eca437bab7d5f03452ff0ef9de8299be6b08e16"
+  integrity sha512-G1LRwLIQjBQoyq0ZJGqGIJUXzJ8irpbjHLpVRXDvBEScFJ9b17sgK6vlx0GAJFE21okD7zXl08rRRUfq6HdoEQ==
+
 caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001004:
   version "1.0.30001008"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001008.tgz#b8841b1df78a9f5ed9702537ef592f1f8772c0d9"
   integrity sha512-b8DJyb+VVXZGRgJUa30cbk8gKHZ3LOZTBLaUEEVr2P4xpmFigOCc62CO4uzquW641Ouq1Rm9N+rWLWdSYDaDIw==
-
-caniuse-lite@^1.0.30001669:
-  version "1.0.30001684"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001684.tgz#0eca437bab7d5f03452ff0ef9de8299be6b08e16"
-  integrity sha512-G1LRwLIQjBQoyq0ZJGqGIJUXzJ8irpbjHLpVRXDvBEScFJ9b17sgK6vlx0GAJFE21okD7zXl08rRRUfq6HdoEQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -6935,6 +6953,13 @@ core-object@2.0.6:
   dependencies:
     chalk "^1.1.3"
 
+core-object@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/core-object/-/core-object-2.1.1.tgz#4b7a5f1edefcb1e6d0dcb58eab1b9f90bfc666a8"
+  integrity sha512-CK2aJjAhB7wbAo6PiOqxd0887t9uGyq3f0L4Rg4NnwzMO/HI7uI5NPssuPm9RvvH6pFm9nRqOAwaS/GThGdWEg==
+  dependencies:
+    chalk "^1.1.3"
+
 core-object@^3.0.0, core-object@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/core-object/-/core-object-3.1.5.tgz#fa627b87502adc98045e44678e9a8ec3b9c0d2a9"
@@ -7477,7 +7502,7 @@ electron-to-chromium@^1.3.295, electron-to-chromium@^1.3.47:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.306.tgz#e8265301d053d5f74e36cb876486830261fbe946"
   integrity sha512-frDqXvrIROoYvikSKTIKbHbzO6M3/qC6kCIt/1FOa9kALe++c4VAJnwjSFvf1tYLEUsP2n9XZ4XSCyqc3l7A/A==
 
-electron-to-chromium@^1.5.41:
+electron-to-chromium@^1.3.30, electron-to-chromium@^1.5.41:
   version "1.5.65"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.65.tgz#e2b9d84d31e187a847e3ccdcfb415ddd4a3d1ea7"
   integrity sha512-PWVzBjghx7/wop6n22vS2MLU8tKGd4Q91aCEGhG/TYmW6PP5OcSXcdnxTe1NNt0T66N8D6jxh4kC8UsdzOGaIw==
@@ -7655,19 +7680,6 @@ ember-cli-deploy-display-revisions@^3.0.0:
     luxon "^3.3.0"
     rsvp "^4.8.5"
 
-ember-cli-deploy-gzip@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-gzip/-/ember-cli-deploy-gzip-3.0.0.tgz#c33919bc6378bfb6a8960dcba0de93e94fc84efd"
-  integrity sha512-JUKHPHYgpGkgybewsKeMbWc9KL0gNB/kNPoHcfjVZsyeW6Ms+rAexwKqSLMuBgXZeDQEZN5AifyVJ3aHAy8iMg==
-  dependencies:
-    "@babel/eslint-parser" "^7.21.8"
-    "@babel/preset-env" "^7.22.4"
-    chalk "^4.1.0"
-    core-object "^3.1.5"
-    ember-cli-deploy-plugin "^0.2.9"
-    minimatch "^3.1.2"
-    rsvp "^4.8.5"
-
 ember-cli-deploy-manifest@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/ember-cli-deploy-manifest/-/ember-cli-deploy-manifest-3.0.0.tgz#d0050fa6113aae1b23574dbaaf341fdcd1c80138"
@@ -7727,6 +7739,18 @@ ember-cli-deploy-s3@^5.0.0:
     minimatch "^3.0.3"
     proxy-agent "^6.3.0"
     rsvp "^4.8.5"
+
+ember-cli-deploy-smart-compress@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-smart-compress/-/ember-cli-deploy-smart-compress-2.0.0.tgz#28901be9402dc4b1ce1bd2275dd9823fcfbf1e87"
+  integrity sha512-VrgcJj4d2ds/DTmEIpD8vOdN0hxYSOZIeeBwNGwUZCm9ZSt3WGZ4NFQY/CD3i1wVf5utshNCugL6gzoP3EdlGQ==
+  dependencies:
+    caniuse-api "^2.0.0"
+    chalk "^1.1.3"
+    core-object "^2.1.1"
+    ember-cli-deploy-plugin "^0.2.9"
+    minimatch "^3.1.2"
+    rsvp "^3.6.2"
 
 ember-cli-get-component-path-option@^1.0.0:
   version "1.0.0"
@@ -11833,6 +11857,11 @@ lodash.keys@^3.0.0:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
+lodash.memoize@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
+  integrity sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==
+
 lodash.merge@^4.6.0, lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
@@ -11873,10 +11902,10 @@ lodash.union@~4.6.0:
   resolved "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
   integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
 
-lodash.uniq@^4.2.0, lodash.uniq@~4.5.0:
+lodash.uniq@^4.2.0, lodash.uniq@^4.5.0, lodash.uniq@~4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
-  integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
+  integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
 
 lodash.without@~4.4.0:
   version "4.4.0"
@@ -14643,7 +14672,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rsvp@^3.0.14, rsvp@^3.0.17, rsvp@^3.0.18, rsvp@^3.0.21, rsvp@^3.0.6, rsvp@^3.1.0:
+rsvp@^3.0.14, rsvp@^3.0.17, rsvp@^3.0.18, rsvp@^3.0.21, rsvp@^3.0.6, rsvp@^3.1.0, rsvp@^3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-3.6.2.tgz#2e96491599a96cde1b515d5674a8f7a91452926a"
   integrity sha512-OfWGQTb9vnwRjwtA2QwpG2ICclHC3pgXZO5xt8H2EfgDquO0qVdSb5T88L4qJVAEugbS56pAuV4XZM58UX8ulw==
