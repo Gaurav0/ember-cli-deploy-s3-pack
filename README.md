@@ -1,4 +1,4 @@
-ember-cli-deploy-s3-pack
+# ember-cli-deploy-s3-pack
 
 > An ember-cli-deploy plugin pack to implement a simple S3 deployment pattern
 
@@ -8,6 +8,13 @@ ember-cli-deploy-s3-pack
 This package bundles the plugins you need to have a deployment pipeline for your Ember app to S3. It is based on the [AWS](https://github.com/kpfefferle/ember-cli-deploy-aws-pack) pack, but does not assume you are using Cloudfront.
 
 It also has a blueprint for your `config/deploy.js` file to get you started.
+
+## Compatibility
+
+* Ember.js v4.4 or above
+* Ember CLI v4.4 or above
+* Node.js v14 or above
+
 
 ## Installation
 
@@ -30,9 +37,12 @@ A "plugin pack" is a concept supported by ember-cli-deploy that allows a single 
 * [ember-cli-deploy-revision-data](https://github.com/ember-cli-deploy/ember-cli-deploy-revision-data)
 * [ember-cli-deploy-display-revisions](https://github.com/ember-cli-deploy/ember-cli-deploy-display-revisions)
 * [ember-cli-deploy-manifest](https://github.com/ember-cli-deploy/ember-cli-deploy-manifest)
-* [ember-cli-deploy-gzip](https://github.com/ember-cli-deploy/ember-cli-deploy-gzip)
+* [ember-cli-deploy-smart-compress](https://github.com/ember-cli-deploy/ember-cli-deploy-smart-compress)
+## Contributing
 
-License
-------------------------------------------------------------------------------
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
