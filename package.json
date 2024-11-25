@@ -83,6 +83,9 @@
   "peerDependencies": {
     "ember-source": "^4.0.0"
   },
+  "resolutions": {
+    "isbinaryfile": "5.0.0"
+  },
   "engines": {
     "node": "14.* || 16.* || >= 18"
   },
