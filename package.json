@@ -27,13 +27,13 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-deploy-build": "^2.0.0",
-    "ember-cli-deploy-display-revisions": "^2.0.0",
-    "ember-cli-deploy-gzip": "^1.0.1",
-    "ember-cli-deploy-manifest": "^1.1.0",
-    "ember-cli-deploy-revision-data": "^1.0.0",
-    "ember-cli-deploy-s3": "^3.0.0",
-    "ember-cli-deploy-s3-index": "^1.1.0"
+    "ember-cli-deploy-build": "^3.0.0",
+    "ember-cli-deploy-display-revisions": "^3.0.0",
+    "ember-cli-deploy-gzip": "^3.0.0",
+    "ember-cli-deploy-manifest": "^3.0.0",
+    "ember-cli-deploy-revision-data": "^3.0.0",
+    "ember-cli-deploy-s3": "^5.0.0",
+    "ember-cli-deploy-s3-index": "^4.0.3"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
