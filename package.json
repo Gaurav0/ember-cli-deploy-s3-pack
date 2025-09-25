@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-s3-pack",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0",
   "description": "An ember-cli-deploy plugin pack to implement a simple S3 deployment pattern",
   "keywords": [
     "ember-addon",
@@ -38,12 +38,13 @@
     "ember-cli-deploy-smart-compress": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.21.3",
-    "@babel/plugin-proposal-decorators": "^7.21.0",
-    "@ember/optional-features": "^2.0.0",
+    "@babel/core": "^7.28.4",
+    "@babel/eslint-parser": "^7.28.4",
+    "@babel/plugin-proposal-decorators": "^7.28.0",
+    "@ember/optional-features": "^2.2.0",
     "@ember/string": "^3.0.1",
-    "@ember/test-helpers": "^2.9.3",
-    "@embroider/test-setup": "^2.1.1",
+    "@ember/test-helpers": "^2.9.6",
+    "@embroider/test-setup": "^4.0.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
     "broccoli-asset-rev": "^3.0.0",
@@ -81,13 +82,16 @@
     "webpack": "^5.78.0"
   },
   "peerDependencies": {
+    "ember-cli-deploy": "^2.0.0",
     "ember-source": "^4.0.0"
   },
   "resolutions": {
-    "isbinaryfile": "5.0.0"
+    "isbinaryfile": "5.0.0",
+    "@types/glob": "^7.2.0",
+    "@types/glob/@types/minimatch": "^5.1.2"
   },
   "engines": {
-    "node": "14.* || 16.* || >= 18"
+    "node": ">= 18"
   },
   "ember": {
     "edition": "octane"
