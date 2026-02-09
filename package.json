@@ -26,7 +26,7 @@
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
     "test:ember": "ember test",
-    "test:ember-compatibility": "ember try:each --config-path=\"config/ember-try.js\""
+    "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
     "ember-cli-deploy-build": "^3.0.0",
@@ -64,7 +64,7 @@
     "ember-source": "~4.12.0",
     "ember-source-channel-url": "^3.0.0",
     "ember-template-lint": "^5.7.2",
-    "ember-try": "^3.0.0",
+    "ember-try": "^4.0.0",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-ember": "^11.5.0",
@@ -82,7 +82,7 @@
   },
   "peerDependencies": {
     "ember-cli-deploy": "^2.0.0",
-    "ember-source": "^4.0.0"
+    "ember-source": ">= 4.0.0"
   },
   "resolutions": {
     "isbinaryfile": "5.0.0",
