@@ -3,7 +3,7 @@
 const getChannelURL = require('ember-source-channel-url');
 const { embroiderSafe, embroiderOptimized } = require('@embroider/test-setup');
 
-// WARNING: Ember CLI v4.12.3 is not tested against Node v20.20.0. See "https://github.com/ember-cli/ember-cli/blob/master/docs/node-support.md" to find out which version of Node is best to use.
+// NOTE: This project targets Ember CLI 6.x and requires Node.js >= 20.19.0 (see package.json "engines" and https://github.com/ember-cli/ember-cli/blob/master/docs/node-support.md).
 module.exports = async function () {
   return {
     packageManager: 'yarn',

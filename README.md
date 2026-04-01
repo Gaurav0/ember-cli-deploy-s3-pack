@@ -12,8 +12,9 @@ It also has a blueprint for your `config/deploy.js` file to get you started.
 ## Compatibility
 
 - Ember.js v4.4 or above
-- Ember CLI v5.8 or above
-- Node.js v20 or above
+- Ember CLI v4.8 or above
+- (version of Ember CLI required may be higher depending on Ember version)
+- Node.js v20.19.0 or above
 
 ## Installation
 

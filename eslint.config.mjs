@@ -43,7 +43,13 @@ export default [
    * https://eslint.org/docs/latest/use/configure/ignore
    */
   {
-    ignores: ['dist/', 'node_modules/', 'coverage/', '!**/.*'],
+    ignores: [
+      'dist/',
+      'node_modules/',
+      'coverage/',
+      '.node_modules.ember-try/',
+      'blueprints/*/files/**',
+    ],
   },
   /**
    * https://eslint.org/docs/latest/use/configure/configuration-files#configuring-linter-options
@@ -72,6 +78,9 @@ export default [
     files: ['tests/**/*-test.{js,gjs}'],
     plugins: {
       qunit,
+    },
+    rules: {
+      ...qunit.configs.recommended.rules,
     },
   },
   /**
