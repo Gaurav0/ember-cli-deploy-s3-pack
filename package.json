@@ -38,8 +38,7 @@
     "ember-cli-deploy-revision-data": "^3.0.0",
     "ember-cli-deploy-s3": "^5.0.0",
     "ember-cli-deploy-s3-index": "^4.0.3",
-    "ember-cli-deploy-smart-compress": "^2.0.0",
-    "ember-template-imports": "^4.3.0"
+    "ember-cli-deploy-smart-compress": "^2.0.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.4",
