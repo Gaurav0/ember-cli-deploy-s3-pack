@@ -11,10 +11,9 @@ It also has a blueprint for your `config/deploy.js` file to get you started.
 
 ## Compatibility
 
-* Ember.js v4.8 or above
-* Ember CLI v4.8 or above
-* Node.js v18 or above
-
+- Ember.js v4.4 or above
+- Ember CLI v5.8 or above
+- Node.js v20 or above
 
 ## Installation
 
@@ -38,10 +37,10 @@ A "plugin pack" is a concept supported by ember-cli-deploy that allows a single 
 * [ember-cli-deploy-display-revisions](https://github.com/ember-cli-deploy/ember-cli-deploy-display-revisions)
 * [ember-cli-deploy-manifest](https://github.com/ember-cli-deploy/ember-cli-deploy-manifest)
 * [ember-cli-deploy-smart-compress](https://github.com/ember-cli-deploy/ember-cli-deploy-smart-compress)
+  
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
-
 
 ## License
 

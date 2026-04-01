@@ -6,7 +6,7 @@ const { embroiderSafe, embroiderOptimized } = require('@embroider/test-setup');
 // WARNING: Ember CLI v4.12.3 is not tested against Node v20.20.0. See "https://github.com/ember-cli/ember-cli/blob/master/docs/node-support.md" to find out which version of Node is best to use.
 module.exports = async function () {
   return {
-    useYarn: true,
+    packageManager: 'yarn',
     scenarios: [
       {
         name: 'ember-lts-4.4',
