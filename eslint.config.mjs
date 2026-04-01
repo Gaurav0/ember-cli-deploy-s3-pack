@@ -111,6 +111,10 @@ export default [
         ...globals.node,
       },
     },
+
+    rules: {
+      ...n.configs['flat/recommended-script'].rules,
+    },
   },
   /**
    * ESM node files
@@ -128,6 +132,10 @@ export default [
       globals: {
         ...globals.node,
       },
+    },
+
+    rules: {
+      ...n.configs['flat/recommended-module'].rules,
     },
   },
 ];
